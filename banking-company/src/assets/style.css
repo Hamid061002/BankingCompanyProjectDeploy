@@ -1,0 +1,96 @@
+@font-face {
+    font-family: LexendFontRegular;
+    src: url(../assets/public/Fonts/Lexend/static/Lexend-Regular.ttf);
+}
+
+@font-face {
+    font-family: LexendFontMedium;
+    src: url(../assets/public/Fonts/Lexend/static/Lexend-Medium.ttf);
+}
+
+@font-face {
+    font-family: LexendFontSemi;
+    src: url(../assets/public/Fonts/Lexend/static/Lexend-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: LexendFontBold;
+    src: url(../assets/public/Fonts/Lexend/static/Lexend-Bold.ttf);
+}
+
+@font-face {
+    font-family: LexendFontLight;
+    src: url(../assets/public/Fonts/Lexend/static/Lexend-Light.ttf);
+}
+
+.LexendFontRegular {
+    font-family: LexendFontRegular;
+}
+
+.LexendFontMedium {
+    font-family: LexendFontMedium;
+}
+
+.LexendFontSemi {
+    font-family: LexendFontSemi;
+}
+
+.LexendFontBold {
+    font-family: LexendFontBold;
+}
+
+.LexendFontLight {
+    font-family: LexendFontLight;
+}
+
+.bgHeader {
+    background-image: url(../assets/public/images/AbstractDesign.svg);
+    background-size: 50%;
+    /* box-shadow: 0 0 10px 10px black inset; */
+}
+
+.bgYourTransactionsParrent {
+    border-radius: 8.264px;
+    background: linear-gradient(to top right, #CAFF3333, #c9ff3308, #CAFF3333);
+    /* border: 0.689px solid #262626;
+    background-blend-mode: normal, screen, normal; */
+}
+
+.bgYourTransactionsChild {
+    border-radius: 8.264px;
+}
+
+.borderStyle {
+    border-radius: 8.264px;
+    border: 0.689px solid var(--grey-15, #262626);
+}
+
+.ourProductsIconStyle {
+    border-radius: 70px;
+    background: linear-gradient(180deg, rgba(202, 255, 51, 0.05) 0%, rgba(202, 255, 51, 0.00) 100%);
+}
+
+.useCaseBgStyleLeft {
+    background-image: url(../assets/public/images/AbstractDesignUseCaseLeft.svg);
+}
+
+.useCaseBgStyleRight {
+    background-image: url(../assets/public/images/AbstractDesignUseCaseRight.svg);
+}
+
+.useCaseIconsStyle {
+    border-radius: 70px;
+    background: linear-gradient(180deg, rgba(202, 255, 51, 0.05) 0%, rgba(202, 255, 51, 0.00) 100%);
+}
+
+.bgLoginSignUp {
+    border-radius: 20px;
+    border: 1px solid var(--Grey-15, #262626);
+    background: url(../assets/public/images/login&signUpBackGround.png);
+    background-size:  cover;
+    background-repeat:  no-repeat;
+}
+
+.textWidth{
+    width: calc(100% - 28px);
+}
